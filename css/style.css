@@ -1,0 +1,233 @@
+html, body, header {
+    height: 100%;
+}
+header {
+    background:url('../img/splash.jpg') center/cover;
+}
+header:before {
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.15);
+}
+.header-box {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 360px;
+    text-align: center;
+}
+.header-box a {
+    display: inline-block;
+    padding:10px 20px;
+    border:2px solid #fff;
+    color:#fff;
+    margin-top:50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    transition:.3s all ease-in-out;
+}
+.header-box a:hover {
+    background-color:rgba(0,0,0,0.5);
+    padding:10px 35px;
+    border-radius:5px;
+}
+
+/* Navigation */
+nav {
+    padding:25px 0;
+    text-align: center;
+    border-bottom:2px solid #303030;
+}
+nav a {
+    vertical-align: middle;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color:#303030;
+    margin:0 15px;
+    border-bottom:1px dotted transparent;
+    padding-bottom:3px;
+}
+.nav-logo {
+    padding-bottom:0;
+}
+nav a:not(.nav-logo):hover {
+    border-bottom:1px dotted #303030;
+}
+
+/* Main */
+main {
+    width: 948px;
+    margin:0 auto;
+    text-align: center;
+}
+section {
+    padding:50px 0 0 0;
+}
+.products {
+    text-align: center;
+}
+.product {
+    display: inline-block;
+    width: 300px;
+}
+.product a {
+    width: 100%;
+    display: inline-block;
+}
+.product img {
+    max-width:100%;
+}
+.product+.product {
+    margin-left:20px;
+}
+.shop-all {
+    margin:40px 0 0;
+    text-align: left;
+    height: 63px;
+    line-height:63px;
+    background:url('../img/bar-promo.jpg');
+}
+.shop-all a {
+    float:right;
+    text-decoration: none;
+    color: #000;
+}
+
+.our-story p{
+    margin: 0 0 40px;
+    padding:0 150px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.slider {
+height: 565px;
+background: url(../img/image-04.jpg);
+position: relative;
+margin-bottom: 50px;
+}
+
+.sliderbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 330px;
+    height: 180px;
+}
+
+.sliderbox p {
+    font-style: italic;
+}
+.sliderbox a{
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.sliderbox::after {
+    content:'';
+    width: 320px;
+    height: 170px;
+    border: 2px solid #303030;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:-1;
+}
+
+footer {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-contact {
+    background: url(../img/bar-footer[1].jpg);
+    height: 152px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-contact a{
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+.footer-contact h3{
+    text-transform: uppercase;
+}
+
+.footer-contact>div {
+float: left;
+width: calc(100% /3);
+}
+
+.footer-contact::after {
+content: '';
+display: block;
+clear:both;
+}
+.connect a {
+    background-image: url(../img/icons-social.jpg);
+    height: 22px;
+    display: inline-block;
+    margin: 0 5px;
+}
+.facebook {
+    width: 12px;
+}
+.Insta {
+    width: 21px;
+    background-position-x: -12px;
+}
+
+.footer-infos{
+    margin: 30px 0;
+}
+
+.footer-infos div {
+display: inline-block;
+vertical-align: middle;
+}
+
+.nav {
+    width: 400px;
+    text-align: left
+}
+.nav a {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color:#303030;
+    margin:0 10px;
+    border-bottom:1px dotted transparent;
+    padding-bottom:3px;
+}
+.nav a:hover {
+    border-bottom:1px dotted #303030;
+}
+.logo-holly-hill {
+margin:0 10px;
+}
+.copyr {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: right;
+}
